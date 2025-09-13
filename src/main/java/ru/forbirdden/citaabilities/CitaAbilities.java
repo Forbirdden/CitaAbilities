@@ -472,7 +472,7 @@ public class CitaAbilities extends JavaPlugin implements Listener {
             }
         };
         
-        task.runTaskTimer(this, 0L, getConfig().getInt("update_interval", 100));
+        task.runTaskTimer(this, 0L, getConfig().getInt("update_interval", 40));
         playerTasks.put(uuid, task);
     }
     
