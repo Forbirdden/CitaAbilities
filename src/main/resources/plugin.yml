@@ -1,0 +1,25 @@
+name: CitaAbilities
+version: 1.0.0
+main: ru.forbirdden.citaabilities.CitaAbilities
+api-version: '1.21'
+author: forbirdden
+description: Способности силы циты
+
+commands:
+  cita:
+    description: Управление значением циты
+    usage: /cita [set|add|remove|get|debug|help|reload]
+
+permissions:
+  citaabilities.set:
+    description: Позволяет устанавливать значение циты
+    default: op
+  citaabilities.debug:
+    description: Позволяет использовать debug команды
+    default: op
+  citaabilities.reload:
+    description: Позволяет перезагружать плагин
+    default: op
+  citaabilities.menu:
+    description: Позволяет открывать меню циты
+    default: true
